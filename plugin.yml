@@ -1,0 +1,16 @@
+name: CustomStatus
+main: DarkfulRebel\CustomStatus\Main
+api: 3.0.0
+version: 1.0.0
+author: DarkfulRebel
+description: Set custom status below player's display name!
+
+commands:
+  customstatus:
+    description: Set custom status below your display name
+    permission: customstatus.command
+    usage: /customstatus <status>
+
+permissions:
+  customstatus.command:
+    description: Permission to set Custom Status
